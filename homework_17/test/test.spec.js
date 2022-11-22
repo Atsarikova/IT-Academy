@@ -46,16 +46,4 @@ describe ("first test", function() {
         await ChromeMobileEmulation.click();
         expect(await driver.getCurrentUrl()).to.equal('https://chromedriver.chromium.org/mobile-emulation');
       }) 
-    
-    
-
-
-
-
-
-
-
-
-
-
-
+})
