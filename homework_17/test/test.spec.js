@@ -45,8 +45,8 @@ describe ("first test", function() {
         const ChromeMobileEmulation = await driver.findElement(By.xpath('//*[@class="PsKE7e IKA38e oNsfjf"]//*[@href="/mobile-emulation"'));
         await ChromeMobileEmulation.click();
         expect(await driver.getCurrentUrl()).to.equal('https://chromedriver.chromium.org/mobile-emulation');
-      })
-    })
+      }) 
+    
     
 
 
