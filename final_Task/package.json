@@ -1,0 +1,22 @@
+{
+  "name": "final_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "npx playwright show-report",
+    "lint": "eslint --debug ./ --fix",
+    "pretty": "prettier --write ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1",
+    "eslint": "^8.29.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.1"
+  }
+}
